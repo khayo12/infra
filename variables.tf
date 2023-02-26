@@ -1,10 +1,10 @@
 variable "aws_cli_usr_access_key" {
   type    = string
-  default = "AKIAYWEJ6XF4AUDS45ZQ"
+  default = "#############"
 }
 variable "aws_cli_usr_secret_key" {
   type    = string
-  default = "pg4eKIF5pF84A8iIg1j77X3b/FpJN4UKkHLWRdMc"
+  default = "#############"
 }
 variable "aws_region" {
   type    = string

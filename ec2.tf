@@ -31,6 +31,7 @@ resource "aws_instance" "terraforminstance" {
 	      "sudo yum install httpd git -y",
 	      "sudo systemctl restart httpd",
 	      "sudo systemctl enable httpd",
+        "sudo rm -rf /var/www/html/*",
         "sudo git clone -branch develop https://github.com/melio-consulting/infra-problem /var/www/html/",
         "sudo systemctl start httpd"
 	    ]
